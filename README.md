@@ -3,7 +3,7 @@ JavaScript implementation of the classic Fisher-Yates algorithm to shuffle eleme
 
 ## Instructions
 
-It’s your first day at Dunder Mifflin! You work in sales with Jim and Dwight. The goal is to open each door without running into Michael Scott. If you successfully avoid the bot, you win. If you open a door with Michael Scott behind it, you lose the game and start over. Happy playing!
+It’s your first day at Dunder Mifflin! You work in sales with Jim and Dwight. The goal is to open each door without running into Michael Scott. If you successfully avoid Michael Scott, you win. If you open a door with Michael Scott behind it, you lose the game and start over. Happy playing!
 
 ## To-do list
 [Gaming Logic With MICHAEL SCOTT.pdf](https://github.com/Brosem42/Michael_Scott_Bot/files/10400078/Gaming.Logic.With.MICHAEL.SCOTT.pdf)
