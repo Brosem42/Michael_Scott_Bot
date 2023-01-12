@@ -37,6 +37,42 @@ const startRound = () => {
   shuffle(doors);
 }
 
+// Pick a door
+const pickDoor = (doorId) => {
+    if (doors[doorId] === 'bot') {
+        if (rewardDoorsPicked === doors.length - 1) {
+            botPicked = true;
+            winningDoor = true;
+            return 'you win!';
+        } else {
+            winningDoor = false;
+            return 'you lose! you need to pick all rewards first';
+        }
+    } else {
+        if(botPicked){
+            winningDoor = false;
+            return 'you lose! you have already picked the bot'
+        }
+        rewardDoorsPicked++;
+        if (rewardDoorsPicked === doors.length - 1) {
+            return 'all rewards picked, now you can open the bot door';
+        } else {
+            return 'you found a reward';
+        }
+    }
+}
+
+// Run the game
+startRound();
+console.log(pickDoor(0)) 
+console.log(pickDoor(1)) 
+console.log(pickDoor(2))
+console.log(pickDoor(3))
+if(winningDoor) {
+    console.log('you win!')
+} else {
+    console.log('you lose!')
+}
 
 
 
