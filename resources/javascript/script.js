@@ -24,3 +24,20 @@ const shuffle = (array) => {
   return array;
 };
 
+// Resets var & start the next round
+const resetRound = () => {
+  rewardDoorsPicked = 0;
+  botPicked = false;
+  winningDoor = false;
+}
+
+// start a round 
+const startRound = () => {
+  resetRound();
+  shuffle(doors);
+}
+
+
+
+
+
