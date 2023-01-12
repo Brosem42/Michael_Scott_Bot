@@ -1,3 +1,4 @@
+// With the Fisher-Yates algorithm, I prefer to break it down piece by piece. The algorithm is similar to when you visit the ice skating rink and swap out your shoes for skates. You take a token, hold ownerhsip of your rentals, & return them whenever you want.
 
 const doors = ['bot', 'reward', 'reward', 'reward'];
 let rewardDoorsPicked = 0;
@@ -73,7 +74,3 @@ if(winningDoor) {
 } else {
     console.log('you lose!')
 }
-
-
-
-
