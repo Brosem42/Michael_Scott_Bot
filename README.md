@@ -9,7 +9,7 @@ It’s your first day at Dunder Mifflin! You work in sales with Jim and Dwight. 
 
 ## How would I improve this project?
 * Implement more complex algorithms 
-* Although I used arrays, I want to test out HashMap for fun in another program
+* Although I used array shuffle, I want to test out HashMap for fun in another program
 * Increase the amount of doors every round
 * Generate additional feedback on the game
 * Analyze data trends over a longer period of time    
